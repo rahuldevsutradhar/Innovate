@@ -16,6 +16,8 @@ export default {
       'paprika': ["Paprika"],
   },maxWidth: {
     'container': ['1170px'],
+  }, backgroundImage: {
+    'banner': "url('./assets/banner.png')",
   },
   plugins: []
   }

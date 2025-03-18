@@ -6,12 +6,14 @@ import LogoImage from './assets/Logo.png'
 import Container from './components/Container'
 import Flex from './components/Flex'
 import Navbar from './layout/Navbar'
+import Banner from './layout/Banner'
 
 
 const App = () => {
   return (
     <div>
      <Navbar/>
+     <Banner/>
     </div>
   )
 }

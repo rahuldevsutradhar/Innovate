@@ -8,7 +8,7 @@ import Button from '../components/Button'
 
 const Navbar = () => {
   return (
-    <nav className='bg-[#160C6D]'>
+    <nav className='bg-[#160c6d80] absolute top-0 left-0 w-full'>
         <Container >
             <Flex className='items-center'>
                 <div className='w-2/12'>
