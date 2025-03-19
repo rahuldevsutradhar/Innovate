@@ -7,6 +7,7 @@ import Container from './components/Container'
 import Flex from './components/Flex'
 import Navbar from './layout/Navbar'
 import Banner from './layout/Banner'
+import Galllary from './assets/layout/Galllary'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
     <div>
      <Navbar/>
      <Banner/>
+     <Galllary/>
     </div>
   )
 }
