@@ -8,6 +8,7 @@ import Flex from './components/Flex'
 import Navbar from './layout/Navbar'
 import Banner from './layout/Banner'
 import Galllary from './assets/layout/Galllary'
+import Counter from './layout/Counter'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
      <Navbar/>
      <Banner/>
      <Galllary/>
+     <Counter/>
     </div>
   )
 }
