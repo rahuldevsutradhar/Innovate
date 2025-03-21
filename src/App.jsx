@@ -9,6 +9,7 @@ import Navbar from './layout/Navbar'
 import Banner from './layout/Banner'
 import Galllary from './assets/layout/Galllary'
 import Counter from './layout/Counter'
+import Content from './assets/layout/Content'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
      <Banner/>
      <Galllary/>
      <Counter/>
+     <Content/>
     </div>
   )
 }

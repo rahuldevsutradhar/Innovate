@@ -5,11 +5,14 @@ import ImageOne from '../../assets/One.png'
 import ImageTwo from '../../assets/two.png'
 import ImageThree from '../../assets/three.png'
 import ImageFour from '../../assets/four.png'
+import BgPic from '../../assets/element.png'
 import Flex from '../../components/Flex'
 
 const Galllary = () => {
   return (
-    <section>
+    <section className='bg-[#F9F9FB] '>
+      
+      
         <Container>
             <Flex className='justify-between relative'>
                 <div>
@@ -24,13 +27,10 @@ const Galllary = () => {
                 <div>
                 <Image className='absolute top-[-105px] right-[0px] -z-10' src={ImageFour} alt="one"/>
                 </div>
-
-
-
-
-                
+         
             </Flex>
         </Container>
+        
     </section>
   )
 }
