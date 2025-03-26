@@ -1,26 +1,31 @@
-import React from 'react'
-import HeadingOne from './components/HeadingOne'
-import SubHeading from './components/SubHeading'
-import Image from './components/Image'
-import LogoImage from './assets/Logo.png'
-import Container from './components/Container'
-import Flex from './components/Flex'
-import Navbar from './layout/Navbar'
-import Banner from './layout/Banner'
-import Galllary from './assets/layout/Galllary'
-import Counter from './layout/Counter'
-import Content from './assets/layout/Content'
+import React from 'react';
+import { createRoutesFromElements,createBrowserRouter,Route,RouterProvider } from "react-router-dom";
+import Home from './pages/Home';
+import About from './pages/About';
+import Service from './pages/Service';
+import Portfolio from './pages/Portfolio';
+import Price from './pages/Price';
+import Blog from './pages/Blog';
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+   <Route>
+     <Route path="/" element={<Home/>}></Route>
+     <Route path="/about" element={<About/>}></Route>
+     <Route path="/service" element={<Service/>}></Route>
+     <Route path="/portfolio" element={<Portfolio/>}></Route>
+     <Route path="/price" element={<Price/>}></Route>
+     <Route path="/blog" element={<Blog/>}></Route>
+   </Route>
+  )
+);
 
 
 const App = () => {
   return (
-    <div>
-     <Navbar/>
-     <Banner/>
-     <Galllary/>
-     <Counter/>
-     <Content/>
-    </div>
+    <>
+    <RouterProvider router={router} />
+    </>
   )
 }
 
