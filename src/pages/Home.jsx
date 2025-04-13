@@ -5,6 +5,8 @@ import Galllary from '../assets/layout/Galllary'
 import Counter from '../layout/Counter'
 import Content from '../assets/layout/Content'
 import Service from '../assets/layout/Service'
+import CreateImpact from '../layout/CreateImpact'
+import Plan from '../layout/Plan'
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <Counter/>
       <Content/>
       <Service/>
+      <CreateImpact/>
+      <Plan/>
     </div>
   )
 }
