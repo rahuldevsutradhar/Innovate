@@ -7,6 +7,7 @@ import Content from '../assets/layout/Content'
 import Service from '../assets/layout/Service'
 import CreateImpact from '../layout/CreateImpact'
 import Plan from '../layout/Plan'
+import AboutMe from '../layout/AboutMe'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Service/>
       <CreateImpact/>
       <Plan/>
+      <AboutMe/>
     </div>
   )
 }
